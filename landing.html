@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel ="stylesheet" href = "landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+
+       
+        <div class="slide">
+          
+          <img src="img1.jpg" >
+          
+        </div>
+      
+        <div class="slide">
+          
+          <img src="img2.jpg" >
+          
+        </div>
+      
+        <div class="slide">
+          
+          <img src="img3.jpg" >
+          
+        </div>
+      
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="navigate">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <br>
+
+    <div class = "rating">
+      REVIEW AND RATING SYSTEM
+      <div class="stars">
+        <i class="fa-solid fa-star" id="star" value="1" onclick="colourStar()"></i>
+        <i class="fa-solid fa-star" id="star" value="2" onclick="colourStar()"></i>
+        <i class="fa-solid fa-star" id="star" value="3" onclick="colourStar()"></i>
+        <i class="fa-solid fa-star" id="star" value="4" onclick="colourStar()"></i>
+        <i class="fa-solid fa-star" id="star" value="5" onclick="colourStar()"></i>
+      </div>
+
+
+    </div>
+
+    <script src="landing.js"></script>
+
+    
+</body>
+</html>

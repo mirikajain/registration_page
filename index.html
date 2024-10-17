@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Registration page</title>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+    <div id = "form">
+        <form>
+            <div id = "fname">
+                <label> First name:</label>
+                <input type = "text" >
+            </div><br>
+
+            <div id = "lname">
+                <label> Last name:</label>
+                <input type = "text">
+                <small></small>
+            </div><br>
+
+            <div id = "email">
+                <label> Email:</label>
+                <input type = "text" onkeyup="emailcheck()"><br>
+                <small></small>
+            </div><br>
+
+            <div id = "passbox">
+                <label> Password:</label>
+                <input type = "password" onkeyup="passcheck()" ><br>
+                <div id = "msg"> 
+                    <input type = "checkbox" id = "showpass" onclick="toggle()"><br>
+                    <small></small>
+
+                </div>
+                
+            </div><br>
+
+            <div id = "confirm">
+                <label> Confirm password:</label>
+                <input type = "text" onkeyup="confirmpass()"><br>
+                <small></small>
+            </div><br>
+            
+            <button type = "submit"> <a href = "landing.html"> Submit </a></button>
+            
+    
+    
+        </form>
+
+        
+
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
